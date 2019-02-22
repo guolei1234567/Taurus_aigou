@@ -8,7 +8,7 @@ server:
 spring:
   application:
     name: ZUUL-GATEWAY
-  profiles: zuul
+  profiles: dev
 zuul:
   routes:
     myUser.serviceId: user-provider #需要映射的服务名。自定义变量
