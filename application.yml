@@ -1,14 +1,11 @@
-spring:
-  profiles:
-    active:
-    - dev
----
 server:
   port: 9527
 spring:
   application:
     name: ZUUL-GATEWAY
   profiles: dev
+    active:
+    - dev
 eureka:
   client:
     service-url:
