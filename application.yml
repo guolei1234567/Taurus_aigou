@@ -17,3 +17,16 @@ zuul:
     myUser.path: /myzuul/** #/wbUser/**这个路径的访问都路由到serverId服务处理 访问变成：http://localhost:9527/myzuul/provider/user/5
   ignored-services: user-provider # 忽略这个服务，如果要忽略所有的服务， “*”
   prefix: "/taurus" #统一前缀：如果有多个服务，我们还可以给服务取一个前缀：
+---
+server:
+  port: 8001
+spring:
+  application:
+    name: EMPLOYEE-PROVIDER
+  profiles: emp
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-7001.com:7001/eureka
+  instance:
+    prefer-ip-address: true
