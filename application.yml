@@ -4,8 +4,6 @@ spring:
   application:
     name: ZUUL-GATEWAY
   profiles: zuul
-    activa:
-    - dev
 eureka:
   client:
     service-url:
