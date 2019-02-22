@@ -8,6 +8,7 @@ server:
 spring:
   application:
     name: ZUUL-GATEWAY
+  profiles:zuul
 eureka:
   client:
     service-url:
