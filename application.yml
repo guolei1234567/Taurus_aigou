@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active:
+    - aigou
+---
+server:
+  port: 3355
+spring:
+  application:
+    name: EUREKA-SERVER
+   profies: eureka
