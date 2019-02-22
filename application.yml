@@ -23,7 +23,7 @@ server:
   port: 8001
 spring:
   application:
-    name: PALT-PROVIDER
+    name: PALT-EMPLOYEE
   profiles: emp
 eureka:
   client:
