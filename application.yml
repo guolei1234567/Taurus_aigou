@@ -4,6 +4,7 @@ server:
 spring:
   application:
     name: ZUUL-GATEWAY-UI
+  profiles:zuul_9527
 eureka:
   client:
     service-url:
