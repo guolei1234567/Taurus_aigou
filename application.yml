@@ -36,4 +36,5 @@ server:
   port: 8002
 spring:
   application:
-    name: product
+    name: product-service
+  profiles: product
