@@ -34,7 +34,3 @@ eureka:
 ---
 server:
   port: 8002
-spring:
-  application:
-    name: product-service
-  profiles: product
