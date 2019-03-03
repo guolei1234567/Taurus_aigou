@@ -49,6 +49,7 @@ server:
 spring:
   application:
     name: COMMON-PRIVODER
+  profiles: common-redis
 eureka:
   instance:
     hostname: localhsot
