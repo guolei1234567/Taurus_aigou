@@ -50,6 +50,10 @@ spring:
   application:
     name: COMMON-PRIVODER
   profiles: common-redis
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: 127.0.0.1:9300 #java的客户端要用9300 服务器地址
 eureka:
   instance:
     hostname: localhsot
